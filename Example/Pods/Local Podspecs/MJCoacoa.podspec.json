@@ -1,0 +1,35 @@
+{
+  "name": "MJCoacoa",
+  "version": "0.1.0",
+  "summary": "MJCoacoa私有库，项目常用的一些封装好的方法",
+  "description": "MJCoacoa私有库，项目常用的一些封装好的方法",
+  "homepage": "https://github.com/meidaxia321/MJCoacoa",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mjl": "2994355324@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/meidaxia321/MJCoacoa.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MJCoacoa/Classes/**/*",
+  "resource_bundles": {
+    "MJCoacoa": [
+      "MJCoacoa/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "SVProgressHUD": [
+      "~> 2.0.3"
+    ]
+  }
+}

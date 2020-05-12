@@ -1,0 +1,28 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJCoacoa (0.1.0):
+    - Masonry (~> 1.1.0)
+    - SVProgressHUD (~> 2.0.3)
+  - SVProgressHUD (2.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - MJCoacoa (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  MJCoacoa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJCoacoa: 93ea39f2fcc5678105bc6756161c4101c420d4b6
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+
+PODFILE CHECKSUM: 736485a54dcea7d09471b3038841cb6b15f7d9c3
+
+COCOAPODS: 1.9.1

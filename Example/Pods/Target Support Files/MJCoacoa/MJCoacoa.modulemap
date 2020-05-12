@@ -1,0 +1,6 @@
+framework module MJCoacoa {
+  umbrella header "MJCoacoa-umbrella.h"
+
+  export *
+  module * { export * }
+}
