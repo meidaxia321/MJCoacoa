@@ -28,11 +28,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Pod/Classes/**/*'
-  
-   s.resource_bundles = {
-     'MJCoacoa' => ['Pod/Assets/*.png']
-   }
+  s.source_files = 'MJCocoa.{h,m}'
+  s.public_header_files = 'MJCocoa/*.h'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
