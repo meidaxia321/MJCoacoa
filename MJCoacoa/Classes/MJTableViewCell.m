@@ -9,6 +9,10 @@
 
 @implementation MJTableViewCell
 
+- (void)mj_source{
+    
+}
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code

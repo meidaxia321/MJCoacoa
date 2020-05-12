@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MJTableViewCell : UITableViewCell
 
+- (void)mj_source;
+
 @end
 
 NS_ASSUME_NONNULL_END
