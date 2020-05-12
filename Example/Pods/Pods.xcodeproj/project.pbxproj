@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011BB067246A51410079D842 /* MJTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 011BB065246A51410079D842 /* MJTableViewCell.h */; };
-		011BB068246A51410079D842 /* MJTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 011BB065246A51410079D842 /* MJTableViewCell.h */; };
-		011BB069246A51410079D842 /* MJTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 011BB065246A51410079D842 /* MJTableViewCell.h */; };
-		011BB06A246A51410079D842 /* MJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BB066246A51410079D842 /* MJTableViewCell.m */; };
-		011BB06B246A51410079D842 /* MJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BB066246A51410079D842 /* MJTableViewCell.m */; };
-		011BB06C246A51410079D842 /* MJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BB066246A51410079D842 /* MJTableViewCell.m */; };
-		011BB06D246A51410079D842 /* MJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BB066246A51410079D842 /* MJTableViewCell.m */; };
+		011BB079246A61A30079D842 /* MJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BB077246A61A30079D842 /* MJTableViewCell.m */; };
+		011BB07A246A61A30079D842 /* MJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BB077246A61A30079D842 /* MJTableViewCell.m */; };
+		011BB07B246A61A30079D842 /* MJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BB077246A61A30079D842 /* MJTableViewCell.m */; };
+		011BB07C246A61A30079D842 /* MJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BB077246A61A30079D842 /* MJTableViewCell.m */; };
+		011BB07D246A61A30079D842 /* MJTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 011BB078246A61A30079D842 /* MJTableViewCell.h */; };
+		011BB07E246A61A30079D842 /* MJTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 011BB078246A61A30079D842 /* MJTableViewCell.h */; };
+		011BB07F246A61A30079D842 /* MJTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 011BB078246A61A30079D842 /* MJTableViewCell.h */; };
 		0141581E437DDC69E72CF02937F9DCD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3DEE35BD75C75BA01938AE1CE0D21F /* QuartzCore.framework */; };
 		044F2C4C2926384BEF63F61A7B684071 /* Pods-MJCoacoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B09BA6DB4510AE69E12BD5E900131F8 /* Pods-MJCoacoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06CC75F18236452F6FFF094AC89BB0F4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF53C9C7E4FA59E4D93A5FC084300C /* Masonry-dummy.m */; };
@@ -131,8 +131,8 @@
 
 /* Begin PBXFileReference section */
 		00E91A563F1DF8BEFC240D815C4CF5E4 /* Pods-MJCoacoa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJCoacoa_Tests.modulemap"; sourceTree = "<group>"; };
-		011BB065246A51410079D842 /* MJTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MJTableViewCell.h; path = MJCoacoa/Classes/MJTableViewCell.h; sourceTree = "<group>"; };
-		011BB066246A51410079D842 /* MJTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MJTableViewCell.m; path = MJCoacoa/Classes/MJTableViewCell.m; sourceTree = "<group>"; };
+		011BB077246A61A30079D842 /* MJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJTableViewCell.m; path = MJCoacoa/Classes/MJTableViewCell.m; sourceTree = "<group>"; };
+		011BB078246A61A30079D842 /* MJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJTableViewCell.h; path = MJCoacoa/Classes/MJTableViewCell.h; sourceTree = "<group>"; };
 		027C32D03242745B7C6675A416EC59DE /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		06A0AF2FF9DF149597A3D4009B5C7E88 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		0978364DB347F27B95013B1DEB928576 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
@@ -435,8 +435,8 @@
 		A00D1C0A97B429B292FC70CA27B65B44 /* MJCoacoa */ = {
 			isa = PBXGroup;
 			children = (
-				011BB065246A51410079D842 /* MJTableViewCell.h */,
-				011BB066246A51410079D842 /* MJTableViewCell.m */,
+				011BB078246A61A30079D842 /* MJTableViewCell.h */,
+				011BB077246A61A30079D842 /* MJTableViewCell.m */,
 				7A45695371AEFB1905B29071FDE4B5A1 /* Pod */,
 				8F42EF33B0DEAAFBD54C29DEA61C6707 /* Support Files */,
 			);
@@ -529,7 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044F2C4C2926384BEF63F61A7B684071 /* Pods-MJCoacoa_Tests-umbrella.h in Headers */,
-				011BB069246A51410079D842 /* MJTableViewCell.h in Headers */,
+				011BB07F246A61A30079D842 /* MJTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +538,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45089CFF35B86B38D0E650C16CAF6DDA /* MJCoacoa-umbrella.h in Headers */,
-				011BB067246A51410079D842 /* MJTableViewCell.h in Headers */,
+				011BB07D246A61A30079D842 /* MJTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +547,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD237559757E39C1EBA0774417CAF8E3 /* Pods-MJCoacoa_Example-umbrella.h in Headers */,
-				011BB068246A51410079D842 /* MJTableViewCell.h in Headers */,
+				011BB07E246A61A30079D842 /* MJTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,7 +776,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011BB06B246A51410079D842 /* MJTableViewCell.m in Sources */,
+				011BB07A246A61A30079D842 /* MJTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,7 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011BB06D246A51410079D842 /* MJTableViewCell.m in Sources */,
+				011BB07C246A61A30079D842 /* MJTableViewCell.m in Sources */,
 				7CED32D49C1E86DF6D35ED9EC9A9E452 /* Pods-MJCoacoa_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -793,7 +793,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011BB06C246A51410079D842 /* MJTableViewCell.m in Sources */,
+				011BB07B246A61A30079D842 /* MJTableViewCell.m in Sources */,
 				9B4826183BD7ACC6716AB4D8F794022A /* Pods-MJCoacoa_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -832,7 +832,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011BB06A246A51410079D842 /* MJTableViewCell.m in Sources */,
+				011BB079246A61A30079D842 /* MJTableViewCell.m in Sources */,
 				BA8728E853F18E65E129BD262A1715B7 /* MJCoacoa-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
